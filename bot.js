@@ -56,7 +56,7 @@ const fs = require('fs');
 
 const Client = new Discord.Client({disableEveryone: true});
 
-const prefix = "#";
+const prefix = "&";
 /////////////////////////
 ////////////////////////
 
