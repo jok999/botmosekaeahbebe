@@ -331,7 +331,7 @@ function play(guild, song) {
 
 
    client.on("message", message => {
- if (message.content === "%help") {
+ if (message.content === "&help") {
   const embed = new Discord.RichEmbed() 
       .setColor("RANDOM")
       .setDescription(`
